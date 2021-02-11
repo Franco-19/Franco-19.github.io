@@ -15,6 +15,7 @@
     transition: .2s;
     animation: ease;
     color: black;
+    text-align: center;
 }
 
 .link__list--item:hover {

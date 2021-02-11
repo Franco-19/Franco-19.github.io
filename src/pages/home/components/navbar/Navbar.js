@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom"; 
 
 import './navbar-styles.css'
 
@@ -12,10 +18,17 @@ class Navbar extends Component {
                     </div>
                 </div>
                 <div className="navbar_container__categorias">
-                    <nav>
-                        <ul>
-                            <li>
+                    <nav className="navbar_container__categorias--nav">
+                        <ul className="nav_list">
+                            
+                            <li className="nav_list__item">
                                 Crea tu propio linktree
+                            </li>
+                            <li className="nav_list__item">
+                                Ayuda
+                            </li>
+                            <li className="nav_list__item">
+                                Mi linktree
                             </li>
                         </ul>
                     </nav>

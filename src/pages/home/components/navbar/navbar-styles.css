@@ -6,3 +6,12 @@
     display: flex;
     justify-content: space-between;
 }
+
+.nav_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_list__item {
+}
