@@ -23,7 +23,7 @@ function App() {
             <nav className="navbar_container__categorias--nav">
                 <ul className="nav_list">
                     <li className="nav_list__item">
-                      <Link to="/">
+                      <Link to="/Personal_linktree">
                         Home
                       </Link>
                     </li>
